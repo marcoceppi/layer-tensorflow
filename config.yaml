@@ -1,0 +1,9 @@
+options:
+  tensorflow-version:
+    default: stable
+    description: Version of TensorFlow to install. Value should be a pip version string. Eeither stable or source can be used to install latest stable from PyPI and source will compile from Github source.
+    type: string
+  tensorflow-cuda:
+    default: False
+    description: "Enable CUDA, use only for machines which have NVIDIA Compute capable card >= 3.5"
+    type: boolean
